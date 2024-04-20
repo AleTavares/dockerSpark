@@ -3,6 +3,7 @@
 Neste projeto iremos criar um container Docker com Spark para que possamos executar os projetos de PySpark em nossa maquina ou em um container em nuvem
 
 Estrutura do Projeto
+```
 - /conf => Arquivos de configuração do Spark
 - /dados => Pasta para colocarmos nossos datasets, mapearemos esta pasta como um volume do nosso cluster
 - /jobs => Arquivos PySpark para execução no cluster
@@ -12,6 +13,7 @@ Estrutura do Projeto
 - /Dockekrfile => Arquivo de configuração da imagem docker
 - /entrypoint.sh => Serve como ponto de partida para o processo de tempo de execução de um contêiner Docker. Quando você cria uma imagem Docker e a instancia como um contêiner, o ENTRYPOINT é executado por padrão.
 Permite definir a finalidade principal do contêiner, como executar um servidor web, banco de dados ou aplicativo . Também permite passar argumentos em tempo de execução para personalizar o comportamento do contêiner.
+```
 
 **Execução ambiente**
 
